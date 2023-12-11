@@ -1,0 +1,24 @@
+{
+    "name": "jorge/proyecto-senderismo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jorge\\ProyectoSenderismo\\": "src/",
+            "Controllers\\": "./Controllers",
+            "Models\\": "./Models",
+            "Lib\\": "./Lib",
+            "Utils\\": "./Utils"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Herrero",
+            "email": "herrerojorge730@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "pagerfanta/pagerfanta": "^3.0"
+    }
+}
